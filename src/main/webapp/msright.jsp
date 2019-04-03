@@ -16,13 +16,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<meta http-equiv="expires" content="0">
 	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
 	<meta http-equiv="description" content="This is my page">
-	<!--
-	<link rel="stylesheet" type="text/css" href="styles.css">
-	-->
-	<style type="text/css">
-	body{background: url('images/stubg13.jpg') no-repeat center center;height:100%; margin:0 auto;background-position:center;}
-	.container{width:99%; margin: 0 auto; text-align: center; padding-top: 40px; font-size: 30px; color:#111111;}
-	</style>
   </head>
   
   <body>

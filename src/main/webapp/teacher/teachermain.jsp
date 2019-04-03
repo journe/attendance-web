@@ -31,7 +31,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
    %>
     <div class="header">
     	<div class="top_bar">
-    		<div class="top_bar_description">MK教师端管理系统&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前日期时间：<span id="showDate"></span></div>
+    		<div class="top_bar_description">教师端管理系统&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前日期时间：<span id="showDate"></span></div>
     		<div class="top_bar_opretion">欢迎您!<%=userid %>&nbsp;&nbsp;姓名：<%=realname %>&nbsp;&nbsp;所在学院：<span id="myincollege"><%=incollege %></span>&nbsp;&nbsp;&nbsp;<a href="LogoutTeacher">退出</a></div>
     		<%
   			if(userid==null||userid.equals("")){
@@ -52,10 +52,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     </div>
     <div class="container" id="container">
     	<iframe src="teacher/teachermainpage.html" width="90%" height="100%" align="middle" id="ifcontainer" frameborder="0" name="main_iframe"></iframe>
-    </div>
-    <div class="footer">
-    	<div class="footer_inc">学生信息管理系统 ©2014-2018 MAIKE (geekcjj.top)问题求助|产品建议请上<a href="http://geekcjj.top">新工科Lab</a>&nbsp;&nbsp;&nbsp;京ICP备16037175号</div>
-		<div class="footer_other">版权所有：MAIKE工作室   联系电话：000-000-000<span id="test"></span></div>
     </div>
     <script type="text/javascript" src="./js/jquery-3.3.1.js"></script>
     <script type="text/javascript">

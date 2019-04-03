@@ -50,10 +50,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     			</object> -->
   			</div>
   		</div>
-  		<div class="footer">
-  			<div class="footer_inc"><span>学生信息管理系统 ©2014-2018 MAIKE (geekcjj.top)问题求助|产品建议请上<a href="http://geekcjj.top">新工科Lab</a>&nbsp;&nbsp;&nbsp;京ICP备16037175号</span></div>
-			<div class="footer_other"><span>版权所有：MAIKE工作室   联系电话：000-000-000</span></div>
-		</div>
 		<script type="text/javascript">
 			window.onload=function(){
 				//var userid=;
