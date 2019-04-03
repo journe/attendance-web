@@ -1,0 +1,6 @@
+\.idea/
+/.settings/
+/target/
+src/main/resources/
+src/main/webapp/WEB-INF/classes/
+\.DS_Store
