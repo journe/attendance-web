@@ -6,9 +6,6 @@
     <welcome-file>index.jsp</welcome-file>
     <welcome-file>./WEB-INF/index.jsp</welcome-file>
   </welcome-file-list>
-  <listener>
-    <listener-class>com.attendance.listener.OnlineCountListener</listener-class>
-  </listener>
   <session-config>
     <session-timeout>30</session-timeout>
   </session-config>
